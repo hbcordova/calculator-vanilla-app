@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with HTML, CSS and JavaScript | hbcordova</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <main class="calculator">
+            <div class="calculator__display">
+                <div class="calculator__display--operation"></div>
+                <div class="calculator__display--result">0</div>
+            </div>
+            <div class="calculator__keys">
+                <input type="button" class="calculator__keys--control" value="AC">
+                <input type="button" class="calculator__keys--control" value="+/-">
+                <input type="button" class="calculator__keys--control" value="%">
+                <input type="button" class="calculator__keys--operation" value="÷">
+                <input type="button" class="calculator__keys--number" value="7">
+                <input type="button" class="calculator__keys--number" value="8">
+                <input type="button" class="calculator__keys--number" value="9">
+                <input type="button" class="calculator__keys--operation" value="×">
+                <input type="button" class="calculator__keys--number" value="4">
+                <input type="button" class="calculator__keys--number" value="5">
+                <input type="button" class="calculator__keys--number" value="6">
+                <input type="button" class="calculator__keys--operation" value="-">
+                <input type="button" class="calculator__keys--number" value="1">
+                <input type="button" class="calculator__keys--number" value="2">
+                <input type="button" class="calculator__keys--number" value="3">
+                <input type="button" class="calculator__keys--operation" value="+">
+                <input type="button" class="calculator__keys--number" value="⟳">
+                <input type="button" class="calculator__keys--number" value="0">
+                <input type="button" class="calculator__keys--number" value=".">
+                <input type="button" class="calculator__keys--operation" value="=">
+            </div>
+    
+            <div class="theme">
+                <button class="theme__option theme__option--light">
+                    <span><i class='bx bx-sun'></i></span>
+                </button>
+                <button class="theme__option theme__option--dark ">
+                    <span><i class='bx bx-moon' ></i></span>
+                </button>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <p>
+            Designed and Coded by <a href="">hbcordova</a>
+        </p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
